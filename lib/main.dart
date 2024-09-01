@@ -44,11 +44,12 @@ class _MyHomePageState extends State<MyHomePage> {
   }
   void start() async {
      Map<String,String> data ={
-       "price":"400000",
-       "Jazz_MerchantID":"01211234",  
-       "Jazz_Password":"282avv8wdy",
-       "Jazz_IntegritySalt":"wzhwbab21e",
-       "paymentReturnUrl":"https://sandbox.jazzcash.com.pk/ApplicationAPI/API/Payment/DoTransaction"
+       "price":"100",
+       "Jazz_MerchantID":"",  
+       "Jazz_Password":"",
+       "Jazz_IntegritySalt":"",
+       "paymentReturnUrl":"",
+
      };
     String value="";
     try {
